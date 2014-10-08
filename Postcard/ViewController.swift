@@ -10,11 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // UILabels
     @IBOutlet weak var messageLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    // TextFields
     @IBOutlet weak var enterNameTextField: UITextField!
     @IBOutlet weak var enterMessageTextField: UITextField!
+    
+    // Buttons
     @IBOutlet weak var mailButton: UIButton!
-    @IBOutlet weak var nameLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
